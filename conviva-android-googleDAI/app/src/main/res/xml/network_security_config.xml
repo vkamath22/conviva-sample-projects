@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <debug-overrides>
+        <trust-anchors>
+            <domain-config cleartextTrafficPermitted="true">
+                <domain includeSubdomains="true">storage.googleapis.com</domain>
+            </domain-config>
+        </trust-anchors>
+    </debug-overrides>
+</network-security-config>
